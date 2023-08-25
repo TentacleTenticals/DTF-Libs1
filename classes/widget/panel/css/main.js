@@ -89,7 +89,7 @@ const widgetCss = () => `
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 8px;
+  min-height: 8px;
   margin: 3.5px 0 0 0;
   background-color: rgb(0,0,0);
   color: rgb(255,255,255);
