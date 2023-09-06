@@ -48,6 +48,7 @@ class Menu{
     })
   }
   build({path, title, items, focus, autohide, offset, e}){
+    console.log('OFFSET', offset);
     new El().Div({
       path: path,
       cName: 'contextMenu',
