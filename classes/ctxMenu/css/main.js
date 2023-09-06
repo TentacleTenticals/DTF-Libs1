@@ -5,6 +5,7 @@ const ctxMenuCss = () => `
   display: flex;
   flex-direction: column;
   gap: 5px 0;
+  position: absolute;
   width: max-content;
   background-color: rgb(40,40,40);
   box-shadow: 0 0 1px 1px rgb(0,0,0);
