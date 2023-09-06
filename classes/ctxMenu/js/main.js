@@ -47,12 +47,12 @@ class Menu{
       }
     })
   }
-  build({path, title, items, focus, autohide, e}){
+  build({path, title, items, focus, autohide, offset, e}){
     new El().Div({
       path: path,
       cName: 'contextMenu',
       style: `
-        top: ${e.top + (window.scrollY||window.scrollHeight||0)}px;
+        top: ${offset && offset+10||0 + e.top + (window.scrollY||window.scrollHeight||0)}px;
         left: ${e.left}px;
       `,
       tab: -1,
