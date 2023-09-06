@@ -22,6 +22,14 @@ const ctxMenuCss = () => `
   color: rgb(255,255,255);
 }
 
+.contextMenu .separator {
+  font-size: 12px;
+  background-color: rgb(205 178 219);
+  color: rgb(0,0,0);
+  text-align: center;
+  border-radius: 2px;
+}
+
 .contextMenu .list {
   display: flex;
   flex-direction: column;
@@ -34,17 +42,13 @@ const ctxMenuCss = () => `
   color: rgb(255,255,255);
   border: unset;
   width: 100%;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
   border-radius: 2px;
   box-shadow: inset 0 0 3px 0 rgb(255,255,255);
   cursor: pointer;
-}
-
-.contextMenu .separator {
-  font-size: 12px;
-  background-color: rgb(205 178 219);
-  color: rgb(0,0,0);
-  text-align: center;
-  border-radius: 2px;
 }
 
 .contextMenu .list .sub {
