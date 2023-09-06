@@ -94,7 +94,7 @@ const ctxMenuCss = () => `
   flex-direction: column;
   padding: 3px 3px 3px 3px;
   margin: -3px 0 0 3px;
-  background-color: rgb(200,0,0);
+  background-color: rgb(40,40,40);
 }
 
 `;
