@@ -53,7 +53,7 @@ class Menu{
       path: path,
       cName: 'contextMenu',
       style: `
-        top: ${offset && offset+10||0 + e.top + (window.scrollY||window.scrollHeight||0)}px;
+        top: ${(offset||0 + 10) + e.top + (window.scrollY||window.scrollHeight||0)}px;
         left: ${e.left}px;
       `,
       tab: -1,
