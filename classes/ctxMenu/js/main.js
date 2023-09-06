@@ -9,6 +9,7 @@ class Menu{
   button({path, title, text, onclick}){
     new El().Button({
       path: path,
+      cName: cName,
       title: title,
       text: text,
       onclick: onclick
@@ -48,7 +49,6 @@ class Menu{
     })
   }
   build({path, title, items, focus, autohide, offset, e}){
-    console.log('OFFSET', offset);
     new El().Div({
       path: path,
       cName: 'contextMenu',
