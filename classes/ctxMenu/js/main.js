@@ -6,7 +6,7 @@ class Menu{
       text: text
     });
   }
-  button({path, title, text, onclick}){
+  button({path, cName, title, text, onclick}){
     new El().Button({
       path: path,
       cName: cName,
