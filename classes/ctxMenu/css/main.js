@@ -9,6 +9,7 @@ const ctxMenuCss = () => `
   width: max-content;
   background-color: rgb(40,40,40);
   box-shadow: 0 0 1px 1px rgb(0,0,0);
+  z-index: 20;
 }
 .contextMenu>.header {
   padding: 0 3px 0 3px;
