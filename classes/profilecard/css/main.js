@@ -2,7 +2,7 @@ const profilecardCss = () => `
 .profileCard {
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: absolute;
   padding: 8px;
   width: 400px;
   background-color: rgb(0,0,0);
