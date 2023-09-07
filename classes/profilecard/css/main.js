@@ -1,4 +1,4 @@
-const usercardCss = () => `
+const profilecardCss = () => `
 .profileCard {
   display: flex;
   flex-direction: column;
