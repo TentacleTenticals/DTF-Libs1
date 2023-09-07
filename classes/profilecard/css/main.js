@@ -7,6 +7,7 @@ const profilecardCss = () => `
   width: 400px;
   background-color: rgb(0,0,0);
   color: rgb(255,255,255);
+  z-index: 10;
 }
 .profileCard>* {
   z-index: 1;
@@ -31,13 +32,13 @@ const profilecardCss = () => `
   opacity: 0.5;
 }
 
-.list {
+.profileCard .list {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, max-content);
   gap: 0 5px;
 }
 
-.off {
+.profileCard .off {
   opacity: 0.5;
 }
 `;
