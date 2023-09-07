@@ -34,8 +34,13 @@ const profilecardCss = () => `
 
 .profileCard .list {
   display: grid;
-  grid-template-columns: repeat(2, max-content);
+  grid-template-columns: repeat(2, auto);
   gap: 0 5px;
+}
+.profileCard .texter {
+  word-break: break-all;
+  overflow: auto;
+  max-height: 50px;
 }
 
 .profileCard .off {
