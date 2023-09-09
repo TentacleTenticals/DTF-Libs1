@@ -2,6 +2,7 @@ const profilecardCss = () => `
 .profileCard {
   display: flex;
   flex-direction: column;
+  gap: 7px 0;
   position: absolute;
   padding: 8px;
   width: 400px;
@@ -25,8 +26,9 @@ const profilecardCss = () => `
 .profileCard .mask.cover {
   position: absolute;
   left: 0;
-  max-width: 100%;
-  max-height: 100%;
+  top: 0;
+  width: 100%;
+  height: 100%;
   padding: 0;
   margin: auto;
   opacity: 0.5;
